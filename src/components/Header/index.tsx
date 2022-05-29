@@ -31,6 +31,8 @@ export function Header() {
           variant="unstyled"
           onClick={onOpen}
           mr="2"
+          display="flex"
+          justifyContent="center"
         ></IconButton>
       )}
       <Logo />
